@@ -7,7 +7,7 @@ bool isright(int a, int b, int c){  // 직각삼각형인지 아닌지 판단하
     else return false;
 }
 
-int range(int& m, int& n){
+int range(int& m, int& n){      // 숫자 순서 바꿔주는 함수수
     if(m > n){
         int temp = m;
         m = n;
