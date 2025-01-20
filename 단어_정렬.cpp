@@ -31,7 +31,7 @@ int main(){
         Words.push_back(Word(temp, temp.length()));
     }
     
-    stable_sort(Words.begin(), Words.end(), compare);
+    sort(Words.begin(), Words.end(), compare);
     //중복이라면 unique, erase 이용해서 삭제제
     Words.erase(unique(Words.begin(), Words.end(), is_duplicate), Words.end());
 
